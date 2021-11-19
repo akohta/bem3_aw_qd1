@@ -1,0 +1,3 @@
+## periodicity datafile for bem3_aw_qd1
+# periodicity_setting(0:non periodicity) lattice_constant(d_x)
+1 0.05

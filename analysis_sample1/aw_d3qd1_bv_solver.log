@@ -1,0 +1,41 @@
+../aw_d3qd1_bv_solver pw.txt periodicity_data.txt medium.txt sphere_m1.msh ex1.dat
+
+-- planewave --
+medium density                   [kg/m^3] :            1000
+speed of sound in the medium        [m/s] :            1500
+frequency                            [Hz] :          100000
+sound pressure amplitude             [Pa] :     10+      0I
+x-component of translation vector     [m] :               0
+y-component of translation vector     [m] :               0
+z-component of translation vector     [m] :               0
+rotation parameter theta            [rad] :             0.3
+rotation parameter psi              [rad] :               0
+-- additional information --
+wavelength                            [m] :           0.015
+absolute value of sound intensity [W/m^2] : 3.3333333333333e-05
+x-component of sound intensity    [W/m^2] : 9.850673555378e-06
+y-component of sound intensity    [W/m^2] :               0
+z-component of sound intensity    [W/m^2] : 3.184454963752e-05
+
+--- periodicity data ---
+periodicity data file name = periodicity_data.txt
+periodicity setting        =          1
+lattice constant           =      0.015
+
+--- medium data ---
+medium data file name      = medium.txt
+domain id  1 rho0 [kg/m^3] =     1.3
+             c0      [m/s] =     330
+
+--- mesh data ---
+mesh data file name        = sphere_m1.msh
+node number                =      602
+defined element number     =     1200
+
+
+
+solve acoustic wave boundary value 
+  coefficient matrix          finished. Elapsed time :  1697 (sec)
+  solve VP boundary value     finished. Elapsed time :     7 (sec)
+  solve PV boundary value     finished. Elapsed time :     1 (sec)
+Total elapsed time : 1705 (sec)
