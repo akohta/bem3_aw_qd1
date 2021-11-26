@@ -317,7 +317,7 @@ void rotation_translation_obj(double *rv,double th,double *tv,AQD1 *ad)
 void read_periodicity_data(char *ped_fn,AQD1 *qd)
 {
   FILE *fp;
-  char buf[255]="";
+  char buf[256]="";
   double td;
   int ti;
 
