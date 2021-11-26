@@ -2,8 +2,8 @@
 This is the three-dimensional acoustic wave scattering analysis program for one-dimensional periodic arrangement objects irradiated by a plane wave. 
 The radiation force acting on the object can be analyzed. 
 This is based on boundary element method, the own developed numerical solution is used. 
-Intel Math Kernel Library and libpng are required. 
-Gmsh is used for create a mesh data of object. 
+Intel Math Kernel Library, Gnu Scientific Library and libpng are required. 
+Gmsh is used to create a mesh data for objects. 
 The calculation program of quasi-periodic Green's function "d3_qpgf_d1" is used.  
 
 ![analysis model](model_qpbc1.png "analysis model (model_qpbc1.png)")  
@@ -85,10 +85,11 @@ Please refer to the manual of Gmsh for detail of geometry file.
 ## Reference  
 
 1. Intel Math Kernel Library [MKL](https://software.intel.com/mkl)  
-2. The official PNG reference library [libpng](http://www.libpng.org/pub/png/libpng.html)  
-3. Three-dimensional mesh generator [Gmsh](https://gmsh.info/)
-4. The command-line driven graphing utility [gnuplot](http://www.gnuplot.info/)  
-5. The utilities for manipulating images [ImageMagick](https://imagemagick.org/)  
-6. The calculation program of quasi-periodic Green's function [d3_qpgf_d1](https://github.com/akohta/d3_qpgf_d1/)
-7. The acoustic wave scattering analysis program [aw_msp_ivf](https://github.com/akohta/aw_msp_ivf/)  
+2. GNU Scientific Library [GSL](https://www.gnu.org/software/gsl/)  
+3. The official PNG reference library [libpng](http://www.libpng.org/pub/png/libpng.html)  
+4. Three-dimensional mesh generator [Gmsh](https://gmsh.info/)
+5. The command-line driven graphing utility [gnuplot](http://www.gnuplot.info/)  
+6. The utilities for manipulating images [ImageMagick](https://imagemagick.org/)  
+7. The calculation program of quasi-periodic Green's function [d3_qpgf_d1](https://github.com/akohta/d3_qpgf_d1/)
+8. The acoustic wave scattering analysis program [aw_msp_ivf](https://github.com/akohta/aw_msp_ivf/)  
 
